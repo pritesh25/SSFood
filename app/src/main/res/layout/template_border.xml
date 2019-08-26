@@ -4,8 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
-    <ImageView
+<!--    <ImageView
         android:id="@+id/img1"
         android:layout_width="@dimen/forty_dp"
         android:layout_height="@dimen/forty_dp"
@@ -140,7 +139,6 @@
         app:layout_constraintStart_toEndOf="@+id/img11"
         app:srcCompat="@drawable/corkscrew" />
 
-
     <ImageView
         android:id="@+id/img13"
         android:layout_width="@dimen/forty_dp"
@@ -151,18 +149,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/img12"
-        app:srcCompat="@drawable/grater" />
+        app:srcCompat="@drawable/grater" />-->
 
     <TextView
         android:id="@+id/stepTextView"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_margin="@dimen/five_dp"
         android:scrollbars="vertical"
         android:text="@string/huge"
         android:textSize="@dimen/twenty_sp"
-        app:layout_constraintBottom_toTopOf="@+id/img12"
-        app:layout_constraintEnd_toStartOf="@+id/img8"
-        app:layout_constraintStart_toEndOf="@+id/img3"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

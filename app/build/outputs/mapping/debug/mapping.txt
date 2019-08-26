@@ -1,7 +1,7 @@
 # compiler: R8
 # compiler_version: 1.5.64
 # min_api: 19
-# pg_map_id: f233d1b
+# pg_map_id: 7c806f9
 android.support.v4.graphics.drawable.IconCompatParcelizer -> android.support.v4.graphics.drawable.IconCompatParcelizer:
     10:10:void <init>() -> <init>
     12:12:androidx.core.graphics.drawable.IconCompat read(androidx.versionedparcelable.VersionedParcel) -> read
@@ -15950,24 +15950,25 @@ com.example.myapplication.ui.DetailedActivity -> com.example.myapplication.ui.De
     34:34:boolean access$102(com.example.myapplication.ui.DetailedActivity,boolean) -> a
     34:34:boolean access$100(com.example.myapplication.ui.DetailedActivity) -> b
     34:34:androidx.constraintlayout.widget.ConstraintSet access$200(com.example.myapplication.ui.DetailedActivity) -> c
-    34:34:androidx.constraintlayout.widget.ConstraintSet access$300(com.example.myapplication.ui.DetailedActivity) -> d
+    34:34:android.widget.TextView access$300(com.example.myapplication.ui.DetailedActivity) -> d
+    34:34:androidx.constraintlayout.widget.ConstraintSet access$400(com.example.myapplication.ui.DetailedActivity) -> e
     74:107:void getBundleData() -> o
     51:62:void onCreate(android.os.Bundle) -> onCreate
     65:70:void initView() -> p
-    110:144:void setupAnimation() -> q
-    148:163:void setupViewPager() -> r
+    110:146:void setupAnimation() -> q
+    150:165:void setupViewPager() -> r
 com.example.myapplication.ui.DetailedActivity$1 -> com.example.myapplication.ui.DetailedActivity$a:
     com.example.myapplication.ui.DetailedActivity this$0 -> b
     117:117:void <init>(com.example.myapplication.ui.DetailedActivity) -> <init>
-    120:142:void onClick(android.view.View) -> onClick
+    120:144:void onClick(android.view.View) -> onClick
 com.example.myapplication.ui.DetailedActivity$ViewPagerAdapter -> com.example.myapplication.ui.DetailedActivity$b:
     java.util.List mFragmentTitleList -> f
     java.util.List mFragmentList -> e
-    169:171:void <init>(com.example.myapplication.ui.DetailedActivity,androidx.fragment.app.FragmentManager) -> <init>
-    180:180:int getCount() -> a
-    184:186:void addFragment(androidx.fragment.app.Fragment,java.lang.String) -> a
-    190:190:java.lang.CharSequence getPageTitle(int) -> a
-    175:175:androidx.fragment.app.Fragment getItem(int) -> b
+    171:173:void <init>(com.example.myapplication.ui.DetailedActivity,androidx.fragment.app.FragmentManager) -> <init>
+    182:182:int getCount() -> a
+    186:188:void addFragment(androidx.fragment.app.Fragment,java.lang.String) -> a
+    192:192:java.lang.CharSequence getPageTitle(int) -> a
+    177:177:androidx.fragment.app.Fragment getItem(int) -> b
 com.example.myapplication.ui.MainActivity -> com.example.myapplication.ui.MainActivity:
     com.example.myapplication.adapter.RecipeAdapter recipeAdapter -> q
     androidx.core.widget.ContentLoadingProgressBar recipeListProgressBar -> r

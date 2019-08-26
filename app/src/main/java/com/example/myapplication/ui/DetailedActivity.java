@@ -128,9 +128,11 @@ public class DetailedActivity extends AppCompatActivity {
 
                     if (set) {
                         constraint = constraint1;
+                        introTextView.setVisibility(View.VISIBLE);
                         //floatingActionButton.setBackgroundResource(R.drawable.ic_arrow_forward);
                     } else {
                         constraint = constraint2;
+                        introTextView.setVisibility(View.GONE);
                         //floatingActionButton.setBackgroundResource(R.drawable.ic_arrow_back);
                     }
 

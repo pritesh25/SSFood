@@ -1,0 +1,4 @@
+#Mon Aug 26 10:43:42 IST 2019
+base.0=E\:\\Test\\MyApplication\\app\\build\\intermediates\\transforms\\r8\\debug\\0\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

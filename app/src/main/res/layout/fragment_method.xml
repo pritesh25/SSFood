@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/method_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@android:color/white"
+    android:backgroundTint="@color/colorWhite"
+    tools:context=".fragments.MethodFragment"
+    tools:targetApi="lollipop">
+
+    <ImageView
+        android:id="@+id/hat"
+        android:layout_width="@dimen/forty_dp"
+        android:layout_height="@dimen/forty_dp"
+        android:contentDescription="@string/app_name"
+        android:rotation="0"
+        app:layout_constraintBottom_toBottomOf="@+id/methodTextView"
+        app:layout_constraintEnd_toStartOf="@+id/methodTextView"
+        app:layout_constraintTop_toTopOf="@+id/methodTextView"
+        app:srcCompat="@drawable/turner" />
+
+    <ImageView
+        android:id="@+id/glove"
+        android:layout_width="@dimen/forty_dp"
+        android:layout_height="@dimen/forty_dp"
+        android:contentDescription="@string/app_name"
+        android:rotation="0"
+        app:layout_constraintBottom_toBottomOf="@+id/methodTextView"
+        app:layout_constraintStart_toEndOf="@+id/methodTextView"
+        app:layout_constraintTop_toTopOf="@+id/methodTextView"
+        app:srcCompat="@drawable/oven_glove" />
+
+    <TextView
+        android:id="@+id/methodTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/methods"
+        android:textSize="@dimen/thirty_sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.060000002" />
+
+    <include
+        layout="@layout/template_border"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/methodTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
